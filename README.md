@@ -1,4 +1,4 @@
-<img width="1169" height="560" alt="Screenshot 2025-09-21 090115" src="https://github.com/user-attachments/assets/bb0fae03-2bf6-4a17-9fc5-65c140e70ccd" />
+<img width="1169" height="560" alt="Screenshot 2025-09-21 090115" src="https://github.com/user-attachments/assets/1254e240-c53d-408f-981e-f86884094457" />
 
 ---
 
@@ -193,6 +193,53 @@ NSE scripts are organized into 14 categories on the NSE Scripts documentation pa
 <br>
 
 There are 604 scripts available on the NSE Scripts page.
+
+I am going present and explain three NSE Script, and I will perform the windows system and testing website susch as testphp.vulnweb.com. And I will explain the script results. 
+
+### **1. --script vuln*
+
+
+<img width="1405" height="742" alt="image" src="https://github.com/user-attachments/assets/383a6322-a238-4a3e-84ed-13142404cad5" />
+<img width="1405" height="742" alt="image" src="https://github.com/user-attachments/assets/a5487772-f937-4d52-9c93-c0fc5f4e5394" />
+Image 9 – NSE –-script vuln scan<br>
+
+<br>
+The attached images above show the output of an Nmap scan performed with the –-script vuln option target in the host testphp.vulnweb.com (IP: 44.228.249.3) detecting ports 21 (FTP) and 80 (HTTP) open. The http-cross-domain-policy vulnerability was identified, indicating that the crossdomain.xml file has overly permissive configurations, which could allow attacks such as Cross-Site Request Forgery (CSRF) and unauthorized access to sensitive data.
+
+<br>
+
+### **2. --script default*
+
+<img width="2181" height="766" alt="image" src="https://github.com/user-attachments/assets/71a5d4f3-97cc-42f5-a988-8de86fc84ecb" />
+Image 10 – NSE –-script default scan<br>
+
+<br>
+
+The **image 11** show the output of an Nmap scan performed with the **–-script default** option target in the host **192.168.21.220** identifying the following open ports: 22 (SSH), 135 (MSRPC), 139 (NetBIOS-SSN), 445 (Microsoft-DS), and 5357 (WSDAPI). The host has a Oracle VirtualBox network interface (MAC: 08:00:27:E6:DD:EA). Script results indicate that NetBIOS is active with the name **WIN-FPGIFTKT6TQ**, and SMB has message signing enabled but not required. The system date and time are 2025-03-20T20:17:10.
+
+<br>
+
+### **3. ----script http-sql-injection*
+
+
+<img width="2450" height="803" alt="image" src="https://github.com/user-attachments/assets/d8620980-e591-423f-984f-cd6cc5d3988c" />
+Image 11 – NSE –-script http-sql-injection scan<br>
+
+
+<br>
+
+The attached images above show the output of an Nmap scan performed with the **–-script http-sql-injection** option target in the host **testphp.vulnweb.com (IP: 44.228.249.3)** identifying the following open ports: 21 (FTP), 80 (HTTP), 554 (RTSP), and 1723 (PPTP). The analysis using the **sql-injection script** revealed possible SQL Injection vulnerabilities in several URLs of the website, particularly in search pages, product listings, and image display pages.
+
+---
+
+## CONCLUSION
+
+This presentation explored in detail network scanning techniques using Wireshark and Nmap with NSE (Nmap Scripting Engine), focusing on identifying vulnerabilities in networks and test sites like testphp.vulnweb.com to prevent unauthorized exploitation by attackers.
+
+Demonstrated the use of NSE scripts, such as --script vuln, --script default, and --script http-sql-injection, highlighting specific vulnerabilities in target systems.
+
+This presentation reinforces the importance of proactive network security measures and the need for continuous monitoring and vulnerability assessment. The knowledge shared in this presentation can be applied to real-world scenarios to enhance an organization's security posture and prevent unauthorized access to systems and sensitive data.
+
 
 
 
