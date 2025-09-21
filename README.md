@@ -240,7 +240,21 @@ Demonstrated the use of NSE scripts, such as --script vuln, --script default, an
 
 This presentation reinforces the importance of proactive network security measures and the need for continuous monitoring and vulnerability assessment. The knowledge shared in this presentation can be applied to real-world scenarios to enhance an organization's security posture and prevent unauthorized access to systems and sensitive data.
 
+---
 
+## REFERENCE
+
+- Chauhan, P. D. (2025). Ethical Hacking: Scanning Day 5 and 6. Oeson Learning Cyber Security Program.
+
+- Garn, D. (2022). 5 scripts for getting started with the Nmap Scripting Engine.
+
+- intrusion-detection-system. (2013, 04 13). Retrieved 03 18, 2025, from ibm.com: https://www.ibm.com/think/topics/intrusion-detection-system
+
+- Lyon, G. (2009). Nmap Network Scanning. nmap Project; 12.2.2008 edition. Retrieved from nmap.org.
+
+- Port Scanning and Recon with nmap, Part 2: The nmap scripts (nse). (2022, 12 30). (Otw) Retrieved 03 19, 2025, from hackers-arise.com: https://www.hackers-arise.com/post/port-scanning-and-recon-with-nmap-part-2-the-nmap-scripts-nse
+
+- Zdrnja, B. (2020, 05 07). Scanning with nmap?s NSE scripts. Retrieved 03 20, 2025, from isc.sans.edu: https://isc.sans.edu/diary/26096
 
 
 
